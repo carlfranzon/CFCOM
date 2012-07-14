@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/main.m
+END
+TestClient-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClient-Info.plist
+END
+TestClientApplicationController.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClientApplicationController.m
+END
+TestClientXMLParserWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClientXMLParserWindowController.m
+END
+TestClientMainWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClientMainWindowController.h
+END
+TestClient.pch
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClient.pch
+END
+TestClientMainWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClientMainWindowController.m
+END
+TestClientApplicationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClientApplicationController.h
+END
+TestClientXMLParserWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/TestClientXMLParserWindowController.h
+END

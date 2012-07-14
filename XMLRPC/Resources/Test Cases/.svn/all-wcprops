@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases
+END
+EmptyStringTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/EmptyStringTestCase.xml
+END
+DefaultTypeTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/DefaultTypeTestCase.xml
+END
+AlternativeDateFormatsTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/AlternativeDateFormatsTestCase.xml
+END
+EmptyDataTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/EmptyDataTestCase.xml
+END
+SimpleArrayTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/SimpleArrayTestCase.xml
+END
+EmptyDoubleTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/EmptyDoubleTestCase.xml
+END
+EmptyIntegerTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/EmptyIntegerTestCase.xml
+END
+EmptyBooleanTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/EmptyBooleanTestCase.xml
+END
+SimpleStructTestCase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Test%20Cases/SimpleStructTestCase.xml
+END

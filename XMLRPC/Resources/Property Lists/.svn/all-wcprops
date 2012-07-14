@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Property%20Lists
+END
+TestCases.plist
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Property%20Lists/TestCases.plist
+END
+XMLRPC-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Property%20Lists/XMLRPC-Info.plist
+END
+XMLRPCUnitTests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Resources/Property%20Lists/XMLRPCUnitTests-Info.plist
+END

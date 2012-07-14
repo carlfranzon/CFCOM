@@ -13,12 +13,23 @@
 		9E282BAE159DAB41009ECB10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E282BAC159DAB41009ECB10 /* InfoPlist.strings */; };
 		9E282BB0159DAB41009ECB10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282BAF159DAB41009ECB10 /* main.m */; };
 		9E282BB4159DAB41009ECB10 /* CFCOMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282BB3159DAB41009ECB10 /* CFCOMAppDelegate.m */; };
-		9E282BB6159DAB41009ECB10 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E282BB5159DAB41009ECB10 /* MainWindow.xib */; };
 		9E282BBE159DAB41009ECB10 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E282BBD159DAB41009ECB10 /* SenTestingKit.framework */; };
 		9E282BBF159DAB41009ECB10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E282BA3159DAB40009ECB10 /* UIKit.framework */; };
 		9E282BC0159DAB41009ECB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E282BA5159DAB40009ECB10 /* Foundation.framework */; };
 		9E282BC8159DAB41009ECB10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E282BC6159DAB41009ECB10 /* InfoPlist.strings */; };
 		9E282BCB159DAB41009ECB10 /* CFCOMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282BCA159DAB41009ECB10 /* CFCOMTests.m */; };
+		9E282C97159DC1B0009ECB10 /* CFCOM_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282C95159DC1B0009ECB10 /* CFCOM_ViewController.m */; };
+		9E282C98159DC1B0009ECB10 /* CFCOM_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E282C96159DC1B0009ECB10 /* CFCOM_ViewController.xib */; };
+		9E282C9D159DF5B6009ECB10 /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E282C9C159DF5B6009ECB10 /* libiconv.2.4.0.dylib */; };
+		9E282CB115A6EA39009ECB10 /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CA415A6EA39009ECB10 /* XMLRPCConnection.m */; };
+		9E282CB215A6EA39009ECB10 /* XMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CA615A6EA39009ECB10 /* XMLRPCDecoder.m */; };
+		9E282CB315A6EA39009ECB10 /* XMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CA815A6EA39009ECB10 /* XMLRPCEncoder.m */; };
+		9E282CB415A6EA39009ECB10 /* XMLRPCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CAA15A6EA39009ECB10 /* XMLRPCExtensions.m */; };
+		9E282CB515A6EA39009ECB10 /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CAC15A6EA39009ECB10 /* XMLRPCRequest.m */; };
+		9E282CB615A6EA39009ECB10 /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CAE15A6EA39009ECB10 /* XMLRPCResponse.m */; };
+		9E282CB715A6EA39009ECB10 /* XMLValueDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CB015A6EA39009ECB10 /* XMLValueDecoder.m */; };
+		9E282CBA15A78D7D009ECB10 /* NSString+XMLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282CB915A78D7D009ECB10 /* NSString+XMLExtensions.m */; };
+		9E282CBE15A83460009ECB10 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E282CBB15A831E1009ECB10 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +47,39 @@
 		9E282BA3159DAB40009ECB10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E282BA5159DAB40009ECB10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E282BA7159DAB40009ECB10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E282BAB159DAB41009ECB10 /* CFCOM-Info.plist */ = {isa = PBXFileReference; path = "CFCOM-Info.plist"; sourceTree = "<group>"; };
+		9E282BAB159DAB41009ECB10 /* CFCOM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFCOM-Info.plist"; sourceTree = "<group>"; };
 		9E282BAD159DAB41009ECB10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E282BAF159DAB41009ECB10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E282BB1159DAB41009ECB10 /* CFCOM-Prefix.pch */ = {isa = PBXFileReference; path = "CFCOM-Prefix.pch"; sourceTree = "<group>"; };
-		9E282BB2159DAB41009ECB10 /* CFCOMAppDelegate.h */ = {isa = PBXFileReference; path = CFCOMAppDelegate.h; sourceTree = "<group>"; };
-		9E282BB3159DAB41009ECB10 /* CFCOMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFCOMAppDelegate.m; sourceTree = "<group>"; };
-		9E282BB5159DAB41009ECB10 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		9E282BB1159DAB41009ECB10 /* CFCOM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFCOM-Prefix.pch"; sourceTree = "<group>"; };
+		9E282BB2159DAB41009ECB10 /* CFCOMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CFCOMAppDelegate.h; path = CFCOM/CFCOMAppDelegate.h; sourceTree = "<group>"; };
+		9E282BB3159DAB41009ECB10 /* CFCOMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CFCOMAppDelegate.m; path = CFCOM/CFCOMAppDelegate.m; sourceTree = "<group>"; };
 		9E282BBC159DAB41009ECB10 /* CFCOMTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFCOMTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E282BBD159DAB41009ECB10 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9E282BC5159DAB41009ECB10 /* CFCOMTests-Info.plist */ = {isa = PBXFileReference; path = "CFCOMTests-Info.plist"; sourceTree = "<group>"; };
+		9E282BC5159DAB41009ECB10 /* CFCOMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFCOMTests-Info.plist"; sourceTree = "<group>"; };
 		9E282BC7159DAB41009ECB10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9E282BC9159DAB41009ECB10 /* CFCOMTests.h */ = {isa = PBXFileReference; path = CFCOMTests.h; sourceTree = "<group>"; };
+		9E282BC9159DAB41009ECB10 /* CFCOMTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFCOMTests.h; sourceTree = "<group>"; };
 		9E282BCA159DAB41009ECB10 /* CFCOMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFCOMTests.m; sourceTree = "<group>"; };
+		9E282C94159DC1B0009ECB10 /* CFCOM_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFCOM_ViewController.h; path = CFCOM/CFCOM_ViewController.h; sourceTree = "<group>"; };
+		9E282C95159DC1B0009ECB10 /* CFCOM_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFCOM_ViewController.m; path = CFCOM/CFCOM_ViewController.m; sourceTree = "<group>"; };
+		9E282C96159DC1B0009ECB10 /* CFCOM_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFCOM_ViewController.xib; sourceTree = "<group>"; };
+		9E282C9C159DF5B6009ECB10 /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
+		9E282CA315A6EA39009ECB10 /* XMLRPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnection.h; sourceTree = "<group>"; };
+		9E282CA415A6EA39009ECB10 /* XMLRPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnection.m; sourceTree = "<group>"; };
+		9E282CA515A6EA39009ECB10 /* XMLRPCDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCDecoder.h; sourceTree = "<group>"; };
+		9E282CA615A6EA39009ECB10 /* XMLRPCDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCDecoder.m; sourceTree = "<group>"; };
+		9E282CA715A6EA39009ECB10 /* XMLRPCEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEncoder.h; sourceTree = "<group>"; };
+		9E282CA815A6EA39009ECB10 /* XMLRPCEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEncoder.m; sourceTree = "<group>"; };
+		9E282CA915A6EA39009ECB10 /* XMLRPCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCExtensions.h; sourceTree = "<group>"; };
+		9E282CAA15A6EA39009ECB10 /* XMLRPCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCExtensions.m; sourceTree = "<group>"; };
+		9E282CAB15A6EA39009ECB10 /* XMLRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCRequest.h; sourceTree = "<group>"; };
+		9E282CAC15A6EA39009ECB10 /* XMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCRequest.m; sourceTree = "<group>"; };
+		9E282CAD15A6EA39009ECB10 /* XMLRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCResponse.h; sourceTree = "<group>"; };
+		9E282CAE15A6EA39009ECB10 /* XMLRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCResponse.m; sourceTree = "<group>"; };
+		9E282CAF15A6EA39009ECB10 /* XMLValueDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLValueDecoder.h; sourceTree = "<group>"; };
+		9E282CB015A6EA39009ECB10 /* XMLValueDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLValueDecoder.m; sourceTree = "<group>"; };
+		9E282CB815A78D7D009ECB10 /* NSString+XMLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLExtensions.h"; path = "CFCOM/NSString+XMLExtensions.h"; sourceTree = "<group>"; };
+		9E282CB915A78D7D009ECB10 /* NSString+XMLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLExtensions.m"; path = "CFCOM/NSString+XMLExtensions.m"; sourceTree = "<group>"; };
+		9E282CBB15A831E1009ECB10 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = CFCOM/MainWindow.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E282C9D159DF5B6009ECB10 /* libiconv.2.4.0.dylib in Frameworks */,
 				9E282BA4159DAB40009ECB10 /* UIKit.framework in Frameworks */,
 				9E282BA6159DAB40009ECB10 /* Foundation.framework in Frameworks */,
 				9E282BA8159DAB40009ECB10 /* CoreGraphics.framework in Frameworks */,
@@ -78,7 +110,9 @@
 		9E282B94159DAB40009ECB10 = {
 			isa = PBXGroup;
 			children = (
-				9E282BA9159DAB40009ECB10 /* CFCOM */,
+				9E282CC015A8949E009ECB10 /* Classes */,
+				9E282C9C159DF5B6009ECB10 /* libiconv.2.4.0.dylib */,
+				9E282BA9159DAB40009ECB10 /* Resources */,
 				9E282BC3159DAB41009ECB10 /* CFCOMTests */,
 				9E282BA2159DAB40009ECB10 /* Frameworks */,
 				9E282BA0159DAB40009ECB10 /* Products */,
@@ -105,26 +139,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9E282BA9159DAB40009ECB10 /* CFCOM */ = {
-			isa = PBXGroup;
-			children = (
-				9E282BB2159DAB41009ECB10 /* CFCOMAppDelegate.h */,
-				9E282BB3159DAB41009ECB10 /* CFCOMAppDelegate.m */,
-				9E282BB5159DAB41009ECB10 /* MainWindow.xib */,
-				9E282BAA159DAB41009ECB10 /* Supporting Files */,
-			);
-			path = CFCOM;
-			sourceTree = "<group>";
-		};
-		9E282BAA159DAB41009ECB10 /* Supporting Files */ = {
+		9E282BA9159DAB40009ECB10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				9E282BAB159DAB41009ECB10 /* CFCOM-Info.plist */,
+				9E282CBB15A831E1009ECB10 /* MainWindow.xib */,
+				9E282C96159DC1B0009ECB10 /* CFCOM_ViewController.xib */,
+				9E282BAA159DAB41009ECB10 /* Other sources */,
+			);
+			name = Resources;
+			path = CFCOM;
+			sourceTree = "<group>";
+		};
+		9E282BAA159DAB41009ECB10 /* Other sources */ = {
+			isa = PBXGroup;
+			children = (
 				9E282BAC159DAB41009ECB10 /* InfoPlist.strings */,
 				9E282BAF159DAB41009ECB10 /* main.m */,
 				9E282BB1159DAB41009ECB10 /* CFCOM-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			name = "Other sources";
 			sourceTree = "<group>";
 		};
 		9E282BC3159DAB41009ECB10 /* CFCOMTests */ = {
@@ -144,6 +178,41 @@
 				9E282BC6159DAB41009ECB10 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E282BD5159DACCE009ECB10 /* xmlrpc */ = {
+			isa = PBXGroup;
+			children = (
+				9E282CA315A6EA39009ECB10 /* XMLRPCConnection.h */,
+				9E282CA415A6EA39009ECB10 /* XMLRPCConnection.m */,
+				9E282CA515A6EA39009ECB10 /* XMLRPCDecoder.h */,
+				9E282CA615A6EA39009ECB10 /* XMLRPCDecoder.m */,
+				9E282CA715A6EA39009ECB10 /* XMLRPCEncoder.h */,
+				9E282CA815A6EA39009ECB10 /* XMLRPCEncoder.m */,
+				9E282CA915A6EA39009ECB10 /* XMLRPCExtensions.h */,
+				9E282CAA15A6EA39009ECB10 /* XMLRPCExtensions.m */,
+				9E282CAB15A6EA39009ECB10 /* XMLRPCRequest.h */,
+				9E282CAC15A6EA39009ECB10 /* XMLRPCRequest.m */,
+				9E282CAD15A6EA39009ECB10 /* XMLRPCResponse.h */,
+				9E282CAE15A6EA39009ECB10 /* XMLRPCResponse.m */,
+				9E282CAF15A6EA39009ECB10 /* XMLValueDecoder.h */,
+				9E282CB015A6EA39009ECB10 /* XMLValueDecoder.m */,
+			);
+			path = xmlrpc;
+			sourceTree = "<group>";
+		};
+		9E282CC015A8949E009ECB10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E282BB2159DAB41009ECB10 /* CFCOMAppDelegate.h */,
+				9E282BB3159DAB41009ECB10 /* CFCOMAppDelegate.m */,
+				9E282C94159DC1B0009ECB10 /* CFCOM_ViewController.h */,
+				9E282C95159DC1B0009ECB10 /* CFCOM_ViewController.m */,
+				9E282CB815A78D7D009ECB10 /* NSString+XMLExtensions.h */,
+				9E282CB915A78D7D009ECB10 /* NSString+XMLExtensions.m */,
+				9E282BD5159DACCE009ECB10 /* xmlrpc */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +269,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 9E282B94159DAB40009ECB10;
 			productRefGroup = 9E282BA0159DAB40009ECB10 /* Products */;
@@ -218,7 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E282BAE159DAB41009ECB10 /* InfoPlist.strings in Resources */,
-				9E282BB6159DAB41009ECB10 /* MainWindow.xib in Resources */,
+				9E282C98159DC1B0009ECB10 /* CFCOM_ViewController.xib in Resources */,
+				9E282CBE15A83460009ECB10 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +326,15 @@
 			files = (
 				9E282BB0159DAB41009ECB10 /* main.m in Sources */,
 				9E282BB4159DAB41009ECB10 /* CFCOMAppDelegate.m in Sources */,
+				9E282C97159DC1B0009ECB10 /* CFCOM_ViewController.m in Sources */,
+				9E282CB115A6EA39009ECB10 /* XMLRPCConnection.m in Sources */,
+				9E282CB215A6EA39009ECB10 /* XMLRPCDecoder.m in Sources */,
+				9E282CB315A6EA39009ECB10 /* XMLRPCEncoder.m in Sources */,
+				9E282CB415A6EA39009ECB10 /* XMLRPCExtensions.m in Sources */,
+				9E282CB515A6EA39009ECB10 /* XMLRPCRequest.m in Sources */,
+				9E282CB615A6EA39009ECB10 /* XMLRPCResponse.m in Sources */,
+				9E282CB715A6EA39009ECB10 /* XMLValueDecoder.m in Sources */,
+				9E282CBA15A78D7D009ECB10 /* NSString+XMLExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFCOM/CFCOM-Prefix.pch";
 				INFOPLIST_FILE = "CFCOM/CFCOM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -358,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFCOM/CFCOM-Prefix.pch";
 				INFOPLIST_FILE = "CFCOM/CFCOM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -418,6 +500,7 @@
 				9E282BD0159DAB41009ECB10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E282BD1159DAB41009ECB10 /* Build configuration list for PBXNativeTarget "CFCOMTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +509,7 @@
 				9E282BD3159DAB41009ECB10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

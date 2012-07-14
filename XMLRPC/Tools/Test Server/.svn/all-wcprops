@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Server
+END
+server.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Server/server.sh
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Server/build.properties
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Server/README.md
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Server/build.xml
+END

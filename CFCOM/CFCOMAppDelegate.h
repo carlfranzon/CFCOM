@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CFCOM_ViewController;
 
-@interface CFCOMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CFCOMAppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+    CFCOM_ViewController *viewController;
+}
 
 @property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) IBOutlet CFCOM_ViewController *viewController;
 
 @end

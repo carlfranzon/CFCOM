@@ -7,15 +7,21 @@
 //
 
 #import "CFCOMAppDelegate.h"
+#import "CFCOM_ViewController.h"
 
 @implementation CFCOMAppDelegate
 
-@synthesize window = _window;
+@synthesize window;
+@synthesize viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
-    [[self window] makeKeyAndVisible];
+    
+    // Override point for customization after app launch    
+    [window addSubview:viewController.view];
+    [window makeKeyAndVisible];
+    //[[self window] makeKeyAndVisible];
     return YES;
 }
 
