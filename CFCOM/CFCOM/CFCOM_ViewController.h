@@ -16,16 +16,19 @@
     IBOutlet UITextView *lblPostText;
     IBOutlet UILabel *lblPost;
     IBOutlet UIStepper *stepper;
-    IBOutlet UIWebView *webPostContent;
+    IBOutlet UIImageView *imgPostImage;
+    UIImage *image;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *lblPost;
 @property (retain, nonatomic) IBOutlet UILabel *lblPostTitle;
-@property (retain, nonatomic) IBOutlet UIWebView *webPostContent;
 @property (retain, nonatomic) IBOutlet UITextView *lblPostText;
+@property (retain, nonatomic) IBOutlet UIImageView *imgPostImage;
+@property (nonatomic, retain) UIImage *image;
 
 -(IBAction)getResponse:(id)sender;
 - (IBAction)changeValue:(id)sender;
 - (id) executeXMLRPCRequest:(XMLRPCRequest *)req;
+- (void) loadImage: (id)url;
 
 @end

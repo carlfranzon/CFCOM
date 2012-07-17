@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/2714/trunk/Vendor/xmlrpc
+END
+XMLRPCDataCleaner.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCDataCleaner.h
+END
+XMLRPCResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2533/trunk/Vendor/xmlrpc/XMLRPCResponse.m
+END
+XMLRPCConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCConnection.m
+END
+NSData+Base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2605/trunk/Vendor/xmlrpc/NSData+Base64.h
+END
+LICENSE.md
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/2343/trunk/Vendor/xmlrpc/LICENSE.md
+END
+XMLRPCDataCleaner.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2714/trunk/Vendor/xmlrpc/XMLRPCDataCleaner.m
+END
+NSData+Base64.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2605/trunk/Vendor/xmlrpc/NSData+Base64.m
+END
+XMLRPC.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPC.h
+END
+XMLRPCEncoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCEncoder.h
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/2605/trunk/Vendor/xmlrpc/README.md
+END
+NSStringAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2605/trunk/Vendor/xmlrpc/NSStringAdditions.h
+END
+XMLRPCEncoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2605/trunk/Vendor/xmlrpc/XMLRPCEncoder.m
+END
+NSStringAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2605/trunk/Vendor/xmlrpc/NSStringAdditions.m
+END
+XMLRPCRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCRequest.h
+END
+XMLRPCEventBasedParserDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCEventBasedParserDelegate.h
+END
+XMLRPCConnectionDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCConnectionDelegate.h
+END
+XMLRPCConnectionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCConnectionManager.h
+END
+XMLRPCEventBasedParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCEventBasedParser.h
+END
+XMLRPCEventBasedParserDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/2605/trunk/Vendor/xmlrpc/XMLRPCEventBasedParserDelegate.m
+END
+XMLRPCRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCRequest.m
+END
+XMLRPCResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCResponse.h
+END
+XMLRPCConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCConnection.h
+END
+XMLRPCConnectionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCConnectionManager.m
+END
+XMLRPC.pch
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPC.pch
+END
+XMLRPCEventBasedParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/2343/trunk/Vendor/xmlrpc/XMLRPCEventBasedParser.m
+END

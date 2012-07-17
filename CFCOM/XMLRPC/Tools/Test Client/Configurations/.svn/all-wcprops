@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/Configurations
+END
+TestClientDevelopment.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/Configurations/TestClientDevelopment.xcconfig
+END
+Common.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/Configurations/Common.xcconfig
+END
+CommonRelease.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/Configurations/CommonRelease.xcconfig
+END
+CommonDevelopment.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/Configurations/CommonDevelopment.xcconfig
+END
+TestClient.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/Configurations/TestClient.xcconfig
+END
+TestClientRelease.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/2343/trunk/Vendor/xmlrpc/Tools/Test%20Client/Configurations/TestClientRelease.xcconfig
+END

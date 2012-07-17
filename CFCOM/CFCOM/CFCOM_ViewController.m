@@ -7,13 +7,19 @@
 //
 
 #import "CFCOM_ViewController.h"
+#import "Element.h"
+#import "DocumentRoot.h"
+
 
 @implementation CFCOM_ViewController
 
+
+
 @synthesize lblPost;
 @synthesize lblPostTitle;
-@synthesize webPostContent;
 @synthesize lblPostText;
+@synthesize imgPostImage;
+@synthesize image = _image;
 
 
 - (IBAction)getResponse:(id)sender{
@@ -23,7 +29,7 @@
 	XMLRPCRequest *request = [[XMLRPCRequest alloc] initWithHost:[NSURL URLWithString:server]];
 	[request setMethod:method withObjects:args];
 	NSArray *response = [self executeXMLRPCRequest:request];
-    NSLog(@"Response: %@", response);
+    //NSLog(@"Response: %@", response);
 	[request release];
     
     for (int i = 0; i < [response count]; i += 1) {
@@ -32,7 +38,7 @@
         //if (i < ([result count] -1)) {
         //    [resOutput appendString:@", "];
         //}
-        NSLog(@"Result [%d], post_title: %@", i, [[response objectAtIndex:i] valueForKey:@"post_title"]);
+        //NSLog(@"Result [%d], post_title: %@", i, [[response objectAtIndex:i] valueForKey:@"post_title"]);
     }
     NSLog(@"Response[%i], Title: %@", ([[lblPost text] intValue]-1), [[response objectAtIndex:([[lblPost text] intValue])-1] valueForKey: @"post_title"]);
     
@@ -40,14 +46,65 @@
 		lblPostText.text = @"error";
 	}
     
+    NSString *post_html = [[response objectAtIndex:([[lblPost text] intValue])-1] valueForKey: @"post_content"]; //Gets the value from the 'post_content' key from WP, in html format
+    
     lblPostTitle.text = [[response objectAtIndex:([[lblPost text] intValue])-1] valueForKey: @"post_title"];
-    lblPostText.text = [[response objectAtIndex:([[lblPost text] intValue])-1] valueForKey: @"post_content"]; // the response key
-    [webPostContent loadHTMLString:lblPostText.text baseURL:nil];
+    //lblPostText.text = post_html; // the response key
+    
 	
+    
+    DocumentRoot *document = [Element parseHTML: post_html];
+    
+    NSString *post_text = [document contentsText]; //
+    
+    //NSLog(@"Text: %@", post_text);
+    
+    lblPostText.text = post_text;
+    
+    NSArray *post_image_elements = [document selectElements:@"a img[src]"];
+    
+    NSLog(@"Post_html: %@", post_html);
+    
+    NSLog(@"imageElement: %@", post_image_elements);
+    
+    NSMutableArray *post_image_links = [[NSMutableArray alloc] init];
+    //NSMutableArray *post_images = [[NSMutableArray alloc] init];
+    
+    if (post_image_elements) {
+        
+    
+    for (Element *element in post_image_elements) {
+        NSString *imglink = [element attribute:@"src"];
+        [post_image_links addObject:imglink];
+        //UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imglink]]];
+        NSOperationQueue *queue = [NSOperationQueue new];
+        NSInvocationOperation *operation = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(loadImage:) object:imglink];
+        [queue addOperation:operation];
+        [operation release];
+        //[post_images addObject:_image];
+    }
+    NSLog(@"Img_links: %@", post_image_links);
+    
+    //if ([post_images count] != 0) imgPostImage.image = [post_images objectAtIndex:0];
+    }
+    
+    
+    
+    
 }
 
 - (IBAction)changeValue:(id)sender {
     lblPost.text = [NSString stringWithFormat:@"%g", [stepper value]];
+}
+
+- (void) loadImage:(id)url{
+    NSLog(@"from loadImage, url: %@", url);
+    UIImage *curImage = [UIImage imageWithData: [NSData dataWithContentsOfURL: [NSURL URLWithString:url]]];
+    _image = curImage;
+    NSMutableArray *post_images = [[NSMutableArray alloc] init];
+    [post_images addObject:_image];
+    if ([post_images count] != 0) imgPostImage.image = [post_images objectAtIndex:0];
+    
 }
 
 - (id) executeXMLRPCRequest:(XMLRPCRequest *)req {
@@ -86,14 +143,14 @@
     lblPostTitle = nil;
     [lblPostText release];
     lblPostText = nil;
-    [self setlblPostTitle:nil];
+    [self setLblPostTitle:nil];
     [self setLblPostText:nil];
     [stepper release];
     stepper = nil;
-    [self setStepper:nil];
-    [webPostContent release];
-    webPostContent = nil;
-    [self setWebPostContent:nil];
+    //[self setStepper:nil];
+    [imgPostImage release];
+    imgPostImage = nil;
+    [self setImgPostImage:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -112,8 +169,8 @@
     [lblPostText release];
     [stepper release];
     [stepper release];
-    [webPostContent release];
-    [webPostContent release];
+    [imgPostImage release];
+    [imgPostImage release];
     [super dealloc];
 }
 @end
